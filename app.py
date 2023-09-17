@@ -151,11 +151,11 @@ if uploaded_file is not None:
             st.pyplot(fig)
 
         #activity heat app
-        '''st.title('Weekly Activity Map')
+        st.title('Weekly Activity Map')
         user_heatmap = helper.activity_heatmap(selected_user, df)
         fig, ax = plt.subplots()
         ax = sns.heatmap(user_heatmap)
-        st.pyplot(fig)'''
+        st.pyplot(fig)
 
         # finding the most active users in a group
         if selected_user == 'Overall':
@@ -174,11 +174,11 @@ if uploaded_file is not None:
                 st.dataframe(new_df)
 
         # activity heatmap
-        '''st.title('Weekly Activity Map')
+        st.title('Weekly Activity Map')
         user_heatmap = helper.activity_heatmap(selected_user, df)
         fig, ax = plt.subplots()
         ax = sns.heatmap(user_heatmap)
-        st.pyplot(fig)'''
+        st.pyplot(fig)
 
 
 
